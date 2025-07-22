@@ -61,10 +61,10 @@ const Content = () => {
                 {/* Content */}
                 <div className="relative z-10 flex flex-col font-nunito items-center mx-2">
                     {/* Input */}
-                    <h1 className="text-4xl font-bold mb-5">Ask AI</h1>
-                    <p className="font-light text-center text-sm sm:text-md">Please enter the symptoms you are currently experiencing, such as headache or any other symptoms.</p>
                     {!result && (
                         <>
+                            <h1 className="text-4xl font-bold mb-5">Ask AI</h1>
+                            <p className="font-light text-center text-sm sm:text-md">Please enter the symptoms you are currently experiencing, such as headache or any other symptoms.</p>
                             <textarea
                                 name=""
                                 id=""
