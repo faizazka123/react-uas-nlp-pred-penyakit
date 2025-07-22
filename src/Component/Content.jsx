@@ -18,7 +18,7 @@ const Content = () => {
         setResult(null);
 
         try {
-            const response = await fetch("https://your-render-url.onrender.com/predict", {
+            const response = await fetch("https://web-production-a03ca.up.railway.app/", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
