@@ -54,7 +54,7 @@ const Content = () => {
                 {/* Header */}
                 <div className="relative z-10 flex justify-center sm:justify-end pt-2 pr-5">
                     <div>
-                        <img src="assets/LogoWeb.svg" alt="" className="w-[150px] sm:w-[250px]" />
+                        <img src="assets/LogoWeb.svg" alt="" className="w-[150px] md:w-[175px] lg:w-[200px] xl:w-[250px]" />
                     </div>
                 </div>
 
@@ -68,14 +68,14 @@ const Content = () => {
                             <textarea
                                 name=""
                                 id=""
-                                className="min-h-[150px] w-full sm:w-1/3 p-4 my-5 bg-white border-2 border-gray-300 rounded-tr-xl rounded-tl-xl rounded-bl-xl"
+                                className="min-h-[150px] w-full md:w-3/5 lg:w-2/4 xl:w-1/3 p-4 my-5 bg-white border-2 border-gray-300 rounded-tr-xl rounded-tl-xl rounded-bl-xl"
                                 placeholder="Enter your symptoms..."
                                 value={input}
                                 onChange={(e) => setInput(e.target.value)}
                             />
 
                             <button
-                                className="bg-button-cek w-4/5 sm:w-1/4 py-2 font-semibold rounded-full shadow-xl hover:bg-button-cek-hover gap-2 transition duration-200 cursor-pointer flex justify-center items-center"
+                                className="bg-button-cek w-4/5 md:w-2/4 lg:w-2/5 xl:w-1/4 py-2 font-semibold rounded-full shadow-xl hover:bg-button-cek-hover gap-2 transition duration-200 cursor-pointer flex justify-center items-center"
                                 onClick={handleCheck}
                                 disabled={loading}
                             >
